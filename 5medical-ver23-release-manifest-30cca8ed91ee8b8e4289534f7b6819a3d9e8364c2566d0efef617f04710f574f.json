@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "5medical-ver23-release/v1",
+  "status": "RELEASE_READY",
+  "pass": true,
+  "releaseReady": true,
+  "allGatesTrue": true,
+  "version": "23",
+  "counts": {
+    "rows": 1686,
+    "confirmedRows": 1634,
+    "pendingRows": 52,
+    "publishedAdditionalRows": 1586,
+    "officiallyNotProvidedAdditionalRows": 37,
+    "evidenceCounts": {
+      "canonical_field_level_provenance": 1316,
+      "sealed_ver22_released_value": 42,
+      "official_web_candidate": 80,
+      "official_html_table": 105,
+      "official_document": 44,
+      "official_document_manual_exact": 33,
+      "official_portal_sealed_snapshot": 13,
+      "official_html_table_lxml": 5
+    }
+  },
+  "outputs": {
+    "pc": {
+      "name": "index.html",
+      "bytes": 15394315,
+      "sha256": "2027928e71228b6a60ca431a14d9d45dd883c20b04591d22f848b8e5a7eb7f57"
+    },
+    "mobile": {
+      "name": "index.html",
+      "bytes": 15442164,
+      "sha256": "634086d9bd4b7fff05a32fa84b1a61ec6b328c442132f5f7bc7d9e718e46880e"
+    },
+    "verifiedData": {
+      "name": "5medical-ver23-public-verified-data-dd942034910e1a9dadc53026bd89f6ad4c1924382bd22e83cc0c69bf30af5b47.json",
+      "bytes": 16228479,
+      "sha256": "d28a5d5e59573c8318961a2af20e5985682463a6061867fa6700ab8c3a5f1d92",
+      "contentSha256": "dd942034910e1a9dadc53026bd89f6ad4c1924382bd22e83cc0c69bf30af5b47"
+    },
+    "publicLineage": {
+      "name": "5medical-ver23-public-lineage-bb2ee7c18925981c5a45ae902147e79a47fbfd6cb0c5822bca5b4e2e2d9d840e.json",
+      "bytes": 3762989,
+      "sha256": "ed7b74838c9088ba94e818e04c755c6367d9dd7d7252208067893f274e106c35",
+      "contentSha256": "bb2ee7c18925981c5a45ae902147e79a47fbfd6cb0c5822bca5b4e2e2d9d840e"
+    },
+    "operationalEvidence": {
+      "name": "5medical-ver23-public-operational-evidence-0d4911440b737c51e324e825388d31447fc71fbe9cfaa991fd3fe693d4d2274f.json",
+      "bytes": 5362589,
+      "sha256": "7b50d672de59bda4af6a607ecb4b437523e4bd91c126834ae89b5c7011ef2aa9",
+      "contentSha256": "0d4911440b737c51e324e825388d31447fc71fbe9cfaa991fd3fe693d4d2274f"
+    }
+  },
+  "validation": {
+    "static": {
+      "name": "static-validation-80a3aa3101ed5791a89c6ae04a06752cd1e5150cb9df387230e1abba713aac28.json",
+      "bytes": 1423,
+      "sha256": "80a3aa3101ed5791a89c6ae04a06752cd1e5150cb9df387230e1abba713aac28"
+    },
+    "runtimeVisual": {
+      "name": "runtime-visual-qa.json",
+      "bytes": 88981,
+      "sha256": "c287c01006568e1c2a2bc0e28cb4541f10e6f46040cf360e7378af8a1c67fd36"
+    },
+    "screenshotSetSha256": "d62fa20484c59394b7996c8e35bf1cb8c9232896745f2d07266c53ca26cf6070"
+  },
+  "gates": {
+    "officialOperationalEvidence": true,
+    "misleadingFillRateRemoved": true,
+    "converterUnchanged": true,
+    "pcMobileEqualData": true,
+    "reciprocalLinksExact": true,
+    "responsiveVisualPass": true,
+    "publicPrivacyZero": true
+  },
+  "contentSha256": "30cca8ed91ee8b8e4289534f7b6819a3d9e8364c2566d0efef617f04710f574f"
+}
