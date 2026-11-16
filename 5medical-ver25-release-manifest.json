@@ -1,0 +1,163 @@
+{
+  "version": "25",
+  "status": "RELEASE_READY",
+  "references": {
+    "university": "동국대학교",
+    "admissionYear": 2022,
+    "program": "약학과",
+    "universityPdf": {
+      "title": "2022학년도 동국대학교(서울) 수시모집 전형결과",
+      "url": "https://ipsi.dongguk.edu/upload/file/202209161347546EKSPB.PDF",
+      "bytes": 791062,
+      "sha256": "c0d3dcf101a45f96d0c15f023a74decd9c2a4261efb0e2d38c88c2e534e40951",
+      "lastModified": "2022-09-16T04:47:56Z"
+    },
+    "adiga": {
+      "url": "https://www.adiga.kr/ucp/uvt/uni/univDetailSelection.do?menuId=PCUVTINF2000&searchSyr=2023&unvCd=0000100",
+      "disclosureYear": 2023,
+      "population": "final_registrants"
+    },
+    "policy": "Use the published average and lowest for reference, exclude them from percentile-based charts and judgments, and do not treat the published fill rate as a count or rank.",
+    "rows": [
+      {
+        "id": 619,
+        "type": "학생부교과",
+        "admission": "교과(학교장추천)",
+        "officialAdmission": "학교장추천인재",
+        "pdfPage": 6,
+        "adigaQuestion": 8,
+        "quota": 3,
+        "competition": 57.33,
+        "publishedFillRatePercent": 0,
+        "oldAdditional": 0,
+        "mean": 1.11,
+        "lowest": 1.17,
+        "convertedMean": 1.015,
+        "convertedLowest": 1.023,
+        "observationKey": "canonical|619|P50"
+      },
+      {
+        "id": 620,
+        "type": "학생부종합",
+        "admission": "종합(Do Dream)",
+        "officialAdmission": "Do Dream",
+        "pdfPage": 5,
+        "adigaQuestion": 7,
+        "quota": 9,
+        "competition": 38.89,
+        "publishedFillRatePercent": 56,
+        "oldAdditional": 5.040000000000001,
+        "mean": 1.4,
+        "lowest": 1.77,
+        "convertedMean": 1.075,
+        "convertedLowest": 1.218,
+        "observationKey": "canonical|620|P50"
+      }
+    ]
+  },
+  "reusedEvidence": {
+    "verifiedData": {
+      "name": "5medical-ver23-public-verified-data-dd942034910e1a9dadc53026bd89f6ad4c1924382bd22e83cc0c69bf30af5b47.json",
+      "bytes": 16228479,
+      "sha256": "d28a5d5e59573c8318961a2af20e5985682463a6061867fa6700ab8c3a5f1d92",
+      "contentSha256": "dd942034910e1a9dadc53026bd89f6ad4c1924382bd22e83cc0c69bf30af5b47"
+    },
+    "publicLineage": {
+      "name": "5medical-ver23-public-lineage-bb2ee7c18925981c5a45ae902147e79a47fbfd6cb0c5822bca5b4e2e2d9d840e.json",
+      "bytes": 3762989,
+      "sha256": "ed7b74838c9088ba94e818e04c755c6367d9dd7d7252208067893f274e106c35",
+      "contentSha256": "bb2ee7c18925981c5a45ae902147e79a47fbfd6cb0c5822bca5b4e2e2d9d840e"
+    },
+    "operationalEvidence": {
+      "name": "5medical-ver23-public-operational-evidence-0d4911440b737c51e324e825388d31447fc71fbe9cfaa991fd3fe693d4d2274f.json",
+      "bytes": 5362589,
+      "sha256": "7b50d672de59bda4af6a607ecb4b437523e4bd91c126834ae89b5c7011ef2aa9",
+      "contentSha256": "0d4911440b737c51e324e825388d31447fc71fbe9cfaa991fd3fe693d4d2274f"
+    }
+  },
+  "conversionChecks": {
+    "nineToFive": {
+      "count": 8001,
+      "fingerprint": "9499934686c683cd0cb78b432a1004454927f7cd1ff8ca1116b522f596825ce6",
+      "first": 1,
+      "last": 5
+    },
+    "fiveToNine": {
+      "count": 4001,
+      "fingerprint": "e7eca66e8d4e6b5d801caa7c6833f0dac3a8245a7df7c2824c86ae9181fed07e",
+      "first": 1.11875,
+      "last": 9
+    }
+  },
+  "editions": {
+    "pc": {
+      "name": "라이언의 의약학 문단속(5등급)(ver.25).html",
+      "baselineSha256": "9749f784d45f8fe68e4e4f81faac0bc79a01966ace66045883a7a2824c96c67f",
+      "sha256": "525030b245a21c4fac3701032a74818cf3a40236d5fbed499e6a901fb44353a7",
+      "bytes": 15401282,
+      "resultRows": 1686,
+      "resultsSha256": "e6b9789ba18baf7290689026d645f675a99e7390ca748345eeace1f9e5e28fa7",
+      "changedRows": [
+        619,
+        620
+      ],
+      "immutableDatasetSha256": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "e3d94d0bb766a759d3fc172e84f29c14675a51b5713f2c1bce9a51be53b345ee",
+        "COVERAGE": "efe42237698dad89834df2437973667589e3f361f698512736c5b8603ba21bb6",
+        "SOURCE_LOCK_META": "4b4fdc0016d23a00381aa03977b2ca1140b92acb3d1923fccb3db290d83530ce",
+        "OFFICIAL_CUT_OBSERVATIONS": "924873009bde2018eafb761d0e4f9c66a3fce6dd0bde81709a6c26d9c391b853",
+        "referenceUrls": "137e18a7718c1b00055aa3e719a91a48b61fbee5d10ea5097f702483af138db3"
+      }
+    },
+    "mobile": {
+      "name": "라이언의 의약학 문단속(5등급) 모바일(ver.25).html",
+      "baselineSha256": "e1d5f5b18cb4fb02d78fcd72d649108f62b4ab5346cec6cdb3680effaf2d7cbe",
+      "sha256": "56a63fced59c0a544c1d91eb33fb03fdfe03adf8338311aa6dbe86a4a2af9a98",
+      "bytes": 15447957,
+      "resultRows": 1686,
+      "resultsSha256": "e6b9789ba18baf7290689026d645f675a99e7390ca748345eeace1f9e5e28fa7",
+      "changedRows": [
+        619,
+        620
+      ],
+      "immutableDatasetSha256": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "dfcc4a5066dbec1bed39a61520fe8249fc8fa98528045d5cbb725dd0041ed97e",
+        "COVERAGE": "01e09d1c164d0e8655784b848a64e70e7c3b099d41e8c1a8edcbfe77ebf764ce",
+        "SOURCE_LOCK_META": "09158fa4022c181fade47b52a4337d89d3d6575517391a65310d080a8e572fca",
+        "OFFICIAL_CUT_OBSERVATIONS": "924873009bde2018eafb761d0e4f9c66a3fce6dd0bde81709a6c26d9c391b853",
+        "referenceUrls": "137e18a7718c1b00055aa3e719a91a48b61fbee5d10ea5097f702483af138db3"
+      }
+    }
+  },
+  "rowCorrectionLedger": [
+    {
+      "id": 619,
+      "priorRowSha256": "7b3509e4cdd385e47068970c24f601266d4fdab538fbeceb0041c552886e723d",
+      "correctedRowSha256": "3ceca34e3e45a23542f8bb146eafab11cfd07a1767a75fee712e5f01b6e6c937",
+      "invalidatedObservation": "canonical|619|P50"
+    },
+    {
+      "id": 620,
+      "priorRowSha256": "25f06a124ce9fecc83d59b8c3ea6040fc516a0ff0e8c95d674d64cd2b889d06b",
+      "correctedRowSha256": "267d2992e895ea8f2864c7fba9bfc973734e081843570f836a5d622f4d6922e8",
+      "invalidatedObservation": "canonical|620|P50"
+    }
+  ],
+  "pass": true,
+  "releaseReady": true,
+  "browserValidation": {
+    "name": "browser-qa-local.json",
+    "bytes": 181429,
+    "sha256": "548ae0b1e4eaa66ec20e9ced3ff5a0574f1ff4f77d97218a056be08669861c77",
+    "cases": 8,
+    "assertions": 438
+  }
+}
