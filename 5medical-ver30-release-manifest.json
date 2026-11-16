@@ -1,0 +1,174 @@
+{
+  "version": "30",
+  "status": "RELEASE_READY",
+  "baselineManifestSha256": "22947cd0809dbda135015bf881bf9744fc76fbca8a3b2bbcb63185e4fcb2a86d",
+  "baselineDeploymentSha256": "42881489766e8e7f1e2054e094d924f4a0e231d1b9bff740883775788cba703d",
+  "editions": {
+    "pc": {
+      "name": "라이언의 의약학 문단속(5등급)(ver.30).html",
+      "bytes": 15432275,
+      "sha256": "3d3cfb227d774c8b0cab118eb4f07d2c7ca5a13576180657d4c8df3abf65c486",
+      "priorSha256": "8a902acf69f3b5ec0f3a91e0d5bed88591942218657c43fcc0259a5881a153e8",
+      "preservedData": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "e3d94d0bb766a759d3fc172e84f29c14675a51b5713f2c1bce9a51be53b345ee",
+        "COVERAGE": "efe42237698dad89834df2437973667589e3f361f698512736c5b8603ba21bb6",
+        "SOURCE_LOCK_META": "4b4fdc0016d23a00381aa03977b2ca1140b92acb3d1923fccb3db290d83530ce",
+        "OFFICIAL_CUT_OBSERVATIONS": "924873009bde2018eafb761d0e4f9c66a3fce6dd0bde81709a6c26d9c391b853",
+        "referenceUrls": "137e18a7718c1b00055aa3e719a91a48b61fbee5d10ea5097f702483af138db3",
+        "RESULTS": "e6b9789ba18baf7290689026d645f675a99e7390ca748345eeace1f9e5e28fa7"
+      }
+    },
+    "mobile": {
+      "name": "라이언의 의약학 문단속(5등급) 모바일(ver.30).html",
+      "bytes": 15478947,
+      "sha256": "5a732b9789d9520c46f20a436ebe1e728c3ae4fa4a716c0492ac0b1f803b0684",
+      "priorSha256": "5b374d5630b542cf05fd7632a7c092ebe83d0bb44ef6b48d5c546a16a2b0800d",
+      "preservedData": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "dfcc4a5066dbec1bed39a61520fe8249fc8fa98528045d5cbb725dd0041ed97e",
+        "COVERAGE": "01e09d1c164d0e8655784b848a64e70e7c3b099d41e8c1a8edcbfe77ebf764ce",
+        "SOURCE_LOCK_META": "09158fa4022c181fade47b52a4337d89d3d6575517391a65310d080a8e572fca",
+        "OFFICIAL_CUT_OBSERVATIONS": "924873009bde2018eafb761d0e4f9c66a3fce6dd0bde81709a6c26d9c391b853",
+        "referenceUrls": "137e18a7718c1b00055aa3e719a91a48b61fbee5d10ea5097f702483af138db3",
+        "RESULTS": "e6b9789ba18baf7290689026d645f675a99e7390ca748345eeace1f9e5e28fa7"
+      }
+    }
+  },
+  "conversion": {
+    "version": "ver.40",
+    "method": "8개 범주 동일 비중 평균 보간",
+    "inputGridStep": 0.001,
+    "categoryIds": [
+      "daejin",
+      "busan",
+      "gyeonggi",
+      "gwangju",
+      "other",
+      "other2",
+      "other3",
+      "internal"
+    ],
+    "sources": {
+      "data": {
+        "name": "conversion-data.ts",
+        "bytes": 25314,
+        "sha256": "0be627b832c5a005344bc776124d352e26a8959e39ad30f91b3336b1c98dc4cc"
+      },
+      "model": {
+        "name": "conversion-model.ts",
+        "bytes": 21337,
+        "sha256": "8a655a0df9aacc7138d627d0c4a13f5a709209f4ad612722d334ac6995cba7a6"
+      }
+    },
+    "published": {
+      "pc": {
+        "repo": "5rating_Ryan",
+        "commit": "03c99eb52fc1a4acca6d80d05ed2d090465e7b0f",
+        "bytes": 8415970,
+        "sha256": "4a3548329177fdad015908623a15b459f23139be4e0587e50a96326d9ef900e2",
+        "interpolationFragmentSha256": "db37ab3e92e38396f8fcfa93f324160d16e7465d1abe80e04ba212d5df8485c3"
+      },
+      "mobile": {
+        "repo": "5rating_RyanM",
+        "commit": "91f1046d303c812ee4bc17f7072592929e37123a",
+        "bytes": 8415981,
+        "sha256": "e62dd181dec95cd41cce2516ae61354690b9862f71483d5e762bfda708011845",
+        "interpolationFragmentSha256": "db37ab3e92e38396f8fcfa93f324160d16e7465d1abe80e04ba212d5df8485c3"
+      }
+    },
+    "grids": {
+      "forward": {
+        "samples": 8001,
+        "endpoints": [
+          1,
+          5
+        ],
+        "step": 0.001,
+        "rawSha256": "9e88e786346f74dfb3c61095d902234ef5631f7646fb90d15047b30b960d4d9a",
+        "rounded12Sha256": "9499934686c683cd0cb78b432a1004454927f7cd1ff8ca1116b522f596825ce6"
+      },
+      "reverse": {
+        "samples": 4001,
+        "endpoints": [
+          1.11875,
+          9
+        ],
+        "step": 0.001,
+        "rawSha256": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "rounded12Sha256": "e7eca66e8d4e6b5d801caa7c6833f0dac3a8245a7df7c2824c86ae9181fed07e"
+      }
+    },
+    "equivalentToSealedVersion": "ver.36",
+    "checkedPairs": {
+      "percentile": {
+        "50": 1263,
+        "70": 1314,
+        "75": 5,
+        "80": 8,
+        "85": 7,
+        "90": 11
+      },
+      "primaryCut": 1380,
+      "mean": 33,
+      "lowest": 23,
+      "observation": 1382
+    },
+    "checkedPairTotal": 5426,
+    "unchangedHistoricalDataset": {
+      "results": {
+        "count": 1686,
+        "sha256": "e6b9789ba18baf7290689026d645f675a99e7390ca748345eeace1f9e5e28fa7"
+      },
+      "observations": {
+        "count": 1382,
+        "sha256": "924873009bde2018eafb761d0e4f9c66a3fce6dd0bde81709a6c26d9c391b853"
+      }
+    },
+    "example": {
+      "university": "동국대학교 WISE캠퍼스",
+      "academicYear": 2026,
+      "program": "의예과",
+      "admission": "교과(불교추천)",
+      "officialCutPercent": 80,
+      "officialNine": 2.32,
+      "convertedFive": 1.498
+    }
+  },
+  "reusedEvidence": {
+    "verifiedData": {
+      "name": "5medical-ver23-public-verified-data-dd942034910e1a9dadc53026bd89f6ad4c1924382bd22e83cc0c69bf30af5b47.json",
+      "bytes": 16228479,
+      "sha256": "d28a5d5e59573c8318961a2af20e5985682463a6061867fa6700ab8c3a5f1d92",
+      "contentSha256": "dd942034910e1a9dadc53026bd89f6ad4c1924382bd22e83cc0c69bf30af5b47"
+    },
+    "publicLineage": {
+      "name": "5medical-ver23-public-lineage-bb2ee7c18925981c5a45ae902147e79a47fbfd6cb0c5822bca5b4e2e2d9d840e.json",
+      "bytes": 3762989,
+      "sha256": "ed7b74838c9088ba94e818e04c755c6367d9dd7d7252208067893f274e106c35",
+      "contentSha256": "bb2ee7c18925981c5a45ae902147e79a47fbfd6cb0c5822bca5b4e2e2d9d840e"
+    },
+    "operationalEvidence": {
+      "name": "5medical-ver23-public-operational-evidence-0d4911440b737c51e324e825388d31447fc71fbe9cfaa991fd3fe693d4d2274f.json",
+      "bytes": 5362589,
+      "sha256": "7b50d672de59bda4af6a607ecb4b437523e4bd91c126834ae89b5c7011ef2aa9",
+      "contentSha256": "0d4911440b737c51e324e825388d31447fc71fbe9cfaa991fd3fe693d4d2274f"
+    }
+  },
+  "publicArtifactsHaveNoPrivatePaths": true,
+  "pass": true,
+  "releaseReady": true,
+  "browserValidation": {
+    "name": "browser-qa-local.json",
+    "bytes": 497395,
+    "sha256": "db1a325ca38b7cd67fa9dfedeb05d9511ada9f8f18d5f1ca62b6da512dfff4dd",
+    "cases": 8,
+    "assertions": 1384
+  }
+}
