@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "5medical-ver24-release/v1",
+  "status": "RELEASE_READY",
+  "pass": true,
+  "releaseReady": true,
+  "version": "24",
+  "changeScope": [
+    "direct official source links",
+    "single gradient-only active menu item",
+    "simplified search form and result toolbar",
+    "responsive PC and mobile proportions",
+    "internal SVG checkbox icon"
+  ],
+  "data": {
+    "resultRows": 1686,
+    "official2028Rules": 415,
+    "policy": "The current 415 official 2028 plan rules remain authoritative. The live sheet shorthand was used only for identity and quota cross-checking because its legacy 탐구 labels are less specific than the official 2028 통합사회·통합과학 text."
+  },
+  "sourceReview": {
+    "liveSheet": {
+      "url": "https://docs.google.com/spreadsheets/d/1teV1-aE6u7ueHC5o1B3iRHCRN-SSvONpN5pcOGLc4K8/edit",
+      "snapshot": {
+        "name": "sheet-2028-snapshot.json",
+        "bytes": 78230,
+        "sha256": "69a8610ab6e16876da4f1462cf5039ebb336a4467be995511507923e8f60ddb6"
+      },
+      "supplement": {
+        "name": "sheet-2028-supplemental.json",
+        "bytes": 20638,
+        "sha256": "157f3f0d2f520ec3a29c648ecfd39af46abf03e1a05be166f25b34c20dc5448a"
+      },
+      "crossCheck": {
+        "name": "rule-sheet-match-report.json",
+        "bytes": 160333,
+        "sha256": "093e0029cef42ec2366476973267146357ce47ca6a275fa1d2bb97fa5dcec8af"
+      }
+    },
+    "designReferences": [
+      {
+        "name": "GDWEB 세종대학교 선정작",
+        "url": "https://gdweb.co.kr/sub/view.asp?Txt_fgbn=5&str_no=26104",
+        "actualSite": "https://www.sejong.ac.kr/"
+      },
+      {
+        "name": "GDWEB 로보토리에듀 선정작",
+        "url": "https://www.gdweb.co.kr/sub/view.asp?Txt_fgbn=5&str_no=27673",
+        "actualSite": "https://robotoriedu.com/"
+      }
+    ]
+  },
+  "reusedEvidence": {
+    "ver23Pc": {
+      "name": "라이언의 의약학 문단속(5등급)(ver.23).html",
+      "bytes": 15394315,
+      "sha256": "2027928e71228b6a60ca431a14d9d45dd883c20b04591d22f848b8e5a7eb7f57"
+    },
+    "ver23Mobile": {
+      "name": "라이언의 의약학 문단속(5등급) 모바일(ver.23).html",
+      "bytes": 15442164,
+      "sha256": "634086d9bd4b7fff05a32fa84b1a61ec6b328c442132f5f7bc7d9e718e46880e"
+    },
+    "official2028Rules": "415-rule embedded official source set"
+  },
+  "rerunScope": {
+    "sheetTabs": 5,
+    "staticAssertions": 8,
+    "runtimeCases": 8,
+    "runtimeAssertions": 125,
+    "screenshots": 24
+  },
+  "gates": {
+    "officialRulesPreserved": true,
+    "directOfficialLinks": true,
+    "singleGradientMenuContract": true,
+    "responsiveLayout": true,
+    "internalSvgIcons": true,
+    "crossLinks": true,
+    "scriptSyntax": true,
+    "publicPrivacy": true,
+    "runtimeVisual": true,
+    "allTargetViewports": true
+  },
+  "outputs": {
+    "pc": {
+      "name": "라이언의 의약학 문단속(5등급)(ver.24).html",
+      "bytes": 15403494,
+      "sha256": "9749f784d45f8fe68e4e4f81faac0bc79a01966ace66045883a7a2824c96c67f"
+    },
+    "mobile": {
+      "name": "라이언의 의약학 문단속(5등급) 모바일(ver.24).html",
+      "bytes": 15451347,
+      "sha256": "e1d5f5b18cb4fb02d78fcd72d649108f62b4ab5346cec6cdb3680effaf2d7cbe"
+    },
+    "staticValidation": {
+      "name": "static-validation-568e0ba60672e868bd2e9a51ee60c285da43cd116dd4a92c8786bd2490183048.json",
+      "bytes": 769,
+      "sha256": "568e0ba60672e868bd2e9a51ee60c285da43cd116dd4a92c8786bd2490183048"
+    },
+    "runtimeVisual": {
+      "name": "runtime-visual-qa.json",
+      "bytes": 58501,
+      "sha256": "58bb03b5777c142229f28cc58380e182984bc7b2b5574e1a28ea3efcb883a76b"
+    },
+    "screenshotSetSha256": "3de990bb0727fe6e06d6268b93b92102fe62971c4de2bce95b402b06dfa1ed82"
+  },
+  "contentSha256": "fc19e44fb047dfd8aad75e29febb77444d2dc6a239e2832db3073f5e3fa5b8cf"
+}
