@@ -1,0 +1,77 @@
+{
+  "version": "38",
+  "status": "RELEASE_READY",
+  "baselineManifestSha256": "4d52c8cab58928e8b8f82f05c637a654ebbbe9fcb5118d20ccc84861709d01a7",
+  "baselineDeploymentSha256": "e02a7220f531f526094bb3fa19d6e037a15df192f9f947456f7013ca467df943",
+  "editions": {
+    "pc": {
+      "name": "라이언의 의약학 문단속(5등급)(ver.38).html",
+      "bytes": 16066706,
+      "sha256": "05b4ddf7e80c238ad2d5023b72e3b76bb14b9bd937574feec0663f5f427ef8c5",
+      "priorSha256": "58541c40a37f0589c3197ee9b7dbf6e2f0300e5aaa64ef34766df8396eddfbaa",
+      "protectedDataSha256": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "e3d94d0bb766a759d3fc172e84f29c14675a51b5713f2c1bce9a51be53b345ee",
+        "COVERAGE": "efe42237698dad89834df2437973667589e3f361f698512736c5b8603ba21bb6",
+        "SOURCE_LOCK_META": "4b4fdc0016d23a00381aa03977b2ca1140b92acb3d1923fccb3db290d83530ce",
+        "OFFICIAL_CUT_OBSERVATIONS": "71b448cad261082fe958d00ed63b7bc7d85e01e3d31b85da6cf01981d80cdf09",
+        "RESULTS": "1a45c4a202db1dc5492fd438ec1f842949c047d405630ecccbf23c22a4b2c12a"
+      }
+    },
+    "mobile": {
+      "name": "라이언의 의약학 문단속(5등급) 모바일(ver.38).html",
+      "bytes": 16113378,
+      "sha256": "1cc97c2f955f7a4e10c84f10926b6624639044abdb74dc8899700b7606304f60",
+      "priorSha256": "873f614ef1e4adb817de2ccf43d7809bd59541b29ddc60019816c2df6d9bb620",
+      "protectedDataSha256": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "dfcc4a5066dbec1bed39a61520fe8249fc8fa98528045d5cbb725dd0041ed97e",
+        "COVERAGE": "01e09d1c164d0e8655784b848a64e70e7c3b099d41e8c1a8edcbfe77ebf764ce",
+        "SOURCE_LOCK_META": "09158fa4022c181fade47b52a4337d89d3d6575517391a65310d080a8e572fca",
+        "OFFICIAL_CUT_OBSERVATIONS": "71b448cad261082fe958d00ed63b7bc7d85e01e3d31b85da6cf01981d80cdf09",
+        "RESULTS": "1a45c4a202db1dc5492fd438ec1f842949c047d405630ecccbf23c22a4b2c12a"
+      }
+    }
+  },
+  "change": {
+    "regionalExclusionInline": true,
+    "rankLabel": "공식 컷 대비 00.00% 수준",
+    "rankPopulation": "선택 계열 전체 공식 컷"
+  },
+  "reusedEvidence": {
+    "verifiedData": {
+      "name": "5medical-ver23-public-verified-data-dd942034910e1a9dadc53026bd89f6ad4c1924382bd22e83cc0c69bf30af5b47.json",
+      "bytes": 16228479,
+      "sha256": "d28a5d5e59573c8318961a2af20e5985682463a6061867fa6700ab8c3a5f1d92",
+      "contentSha256": "dd942034910e1a9dadc53026bd89f6ad4c1924382bd22e83cc0c69bf30af5b47"
+    },
+    "publicLineage": {
+      "name": "5medical-ver23-public-lineage-bb2ee7c18925981c5a45ae902147e79a47fbfd6cb0c5822bca5b4e2e2d9d840e.json",
+      "bytes": 3762989,
+      "sha256": "ed7b74838c9088ba94e818e04c755c6367d9dd7d7252208067893f274e106c35",
+      "contentSha256": "bb2ee7c18925981c5a45ae902147e79a47fbfd6cb0c5822bca5b4e2e2d9d840e"
+    },
+    "operationalEvidence": {
+      "name": "5medical-ver23-public-operational-evidence-0d4911440b737c51e324e825388d31447fc71fbe9cfaa991fd3fe693d4d2274f.json",
+      "bytes": 5362589,
+      "sha256": "7b50d672de59bda4af6a607ecb4b437523e4bd91c126834ae89b5c7011ef2aa9",
+      "contentSha256": "0d4911440b737c51e324e825388d31447fc71fbe9cfaa991fd3fe693d4d2274f"
+    }
+  },
+  "publicArtifactsHaveNoPrivatePaths": true,
+  "pass": true,
+  "releaseReady": true,
+  "browserValidation": {
+    "name": "browser-qa-local.json",
+    "bytes": 1282450,
+    "sha256": "68d0d02cff4d5695b1f3959f97cc375dc438dca184245bedc35be89ff5d78488",
+    "cases": 8,
+    "assertions": 1688
+  }
+}
