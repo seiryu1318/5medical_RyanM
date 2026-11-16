@@ -1,0 +1,97 @@
+{
+  "version": "39",
+  "status": "RELEASE_READY",
+  "baselineManifestSha256": "d2a0434ea90debb8197f3ca96df88ec40c80171aa50fef4fb8ac259e91669d64",
+  "baselineDeploymentSha256": "a1c393adcd71c6f3613a476ae233f95a5d5a3b9999cdf34cbcba92c7b7c55f60",
+  "editions": {
+    "pc": {
+      "name": "라이언의 의약학 문단속(5등급)(ver.39).html",
+      "bytes": 16070994,
+      "sha256": "e6d6c99309ee0b153f4ab82bb5d0c578c111536337b47f22d13debcfaed90061",
+      "priorSha256": "05b4ddf7e80c238ad2d5023b72e3b76bb14b9bd937574feec0663f5f427ef8c5",
+      "protectedDataSha256": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "e3d94d0bb766a759d3fc172e84f29c14675a51b5713f2c1bce9a51be53b345ee",
+        "COVERAGE": "efe42237698dad89834df2437973667589e3f361f698512736c5b8603ba21bb6",
+        "SOURCE_LOCK_META": "4b4fdc0016d23a00381aa03977b2ca1140b92acb3d1923fccb3db290d83530ce",
+        "OFFICIAL_CUT_OBSERVATIONS": "71b448cad261082fe958d00ed63b7bc7d85e01e3d31b85da6cf01981d80cdf09",
+        "RESULTS": "1a45c4a202db1dc5492fd438ec1f842949c047d405630ecccbf23c22a4b2c12a"
+      }
+    },
+    "mobile": {
+      "name": "라이언의 의약학 문단속(5등급) 모바일(ver.39).html",
+      "bytes": 16117666,
+      "sha256": "998b1cbe517a778782366d6d97d234ace323c813846b2215165f77a32214426d",
+      "priorSha256": "1cc97c2f955f7a4e10c84f10926b6624639044abdb74dc8899700b7606304f60",
+      "protectedDataSha256": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "dfcc4a5066dbec1bed39a61520fe8249fc8fa98528045d5cbb725dd0041ed97e",
+        "COVERAGE": "01e09d1c164d0e8655784b848a64e70e7c3b099d41e8c1a8edcbfe77ebf764ce",
+        "SOURCE_LOCK_META": "09158fa4022c181fade47b52a4337d89d3d6575517391a65310d080a8e572fca",
+        "OFFICIAL_CUT_OBSERVATIONS": "71b448cad261082fe958d00ed63b7bc7d85e01e3d31b85da6cf01981d80cdf09",
+        "RESULTS": "1a45c4a202db1dc5492fd438ec1f842949c047d405630ecccbf23c22a4b2c12a"
+      }
+    }
+  },
+  "change": {
+    "navigationLabel": "나의 위치",
+    "fieldLabels": [
+      "의",
+      "치",
+      "한",
+      "약",
+      "수"
+    ],
+    "rankLabel": "상위 00.00%",
+    "rankPopulation": "선택 분야 전국 공식 50%컷",
+    "continuousAxis": true,
+    "regionalAlignment": "controls-bottom-and-comparison-bottom-right",
+    "centeredBoldTitles": true
+  },
+  "reusedEvidence": {
+    "verifiedData": {
+      "name": "5medical-ver23-public-verified-data-dd942034910e1a9dadc53026bd89f6ad4c1924382bd22e83cc0c69bf30af5b47.json",
+      "bytes": 16228479,
+      "sha256": "d28a5d5e59573c8318961a2af20e5985682463a6061867fa6700ab8c3a5f1d92",
+      "contentSha256": "dd942034910e1a9dadc53026bd89f6ad4c1924382bd22e83cc0c69bf30af5b47"
+    },
+    "publicLineage": {
+      "name": "5medical-ver23-public-lineage-bb2ee7c18925981c5a45ae902147e79a47fbfd6cb0c5822bca5b4e2e2d9d840e.json",
+      "bytes": 3762989,
+      "sha256": "ed7b74838c9088ba94e818e04c755c6367d9dd7d7252208067893f274e106c35",
+      "contentSha256": "bb2ee7c18925981c5a45ae902147e79a47fbfd6cb0c5822bca5b4e2e2d9d840e"
+    },
+    "operationalEvidence": {
+      "name": "5medical-ver23-public-operational-evidence-0d4911440b737c51e324e825388d31447fc71fbe9cfaa991fd3fe693d4d2274f.json",
+      "bytes": 5362589,
+      "sha256": "7b50d672de59bda4af6a607ecb4b437523e4bd91c126834ae89b5c7011ef2aa9",
+      "contentSha256": "0d4911440b737c51e324e825388d31447fc71fbe9cfaa991fd3fe693d4d2274f"
+    }
+  },
+  "publicArtifactsHaveNoPrivatePaths": true,
+  "dataQualityValidation": {
+    "name": "data-quality-report.json",
+    "bytes": 3129,
+    "sha256": "5035eb411cb67afe35ae681b2b66cfb68405516dd033aefe4167db61bea180ea"
+  },
+  "ruleMappingValidation": {
+    "name": "rule-mapping-report.json",
+    "bytes": 566443,
+    "sha256": "ad59f9eeca017fcb9aa7c79899e1ffef2d866ac952528a14636bf6695dd07a0f"
+  },
+  "pass": true,
+  "releaseReady": true,
+  "browserValidation": {
+    "name": "browser-qa-local.json",
+    "bytes": 1174931,
+    "sha256": "6108f75ee73329eeac2ff89ae1a723aaaa05115b2e272ad1fcd25f883b07244f",
+    "cases": 8,
+    "assertions": 1728
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "5medical-ver39-data-quality/v1",
+  "status": "PASS",
+  "pass": true,
+  "results": {
+    "count": 1686,
+    "sha256": "1a45c4a202db1dc5492fd438ec1f842949c047d405630ecccbf23c22a4b2c12a",
+    "duplicateIds": [],
+    "missingCompetition": 0,
+    "invalidCompetition": 0
+  },
+  "observations": {
+    "count": 1560,
+    "sha256": "71b448cad261082fe958d00ed63b7bc7d85e01e3d31b85da6cf01981d80cdf09",
+    "missingCompetition": 0,
+    "invalidCompetition": 0,
+    "linkedCompetitionProjection": 1382,
+    "restoredExactOverrides": 20
+  },
+  "restoredCompetition": {
+    "expected": 52,
+    "actual": 52,
+    "invalidSourceUrls": [],
+    "sourceTypes": [
+      "application_vendor",
+      "official_result_pdf",
+      "university",
+      "uway",
+      "uway_and_official_plan"
+    ]
+  },
+  "restoredPublicCuts": {
+    "expected": 178,
+    "actual": 178,
+    "verifiedResultTotal": 1558,
+    "withheldResultTotal": 128,
+    "officialObservationTotal": 1560,
+    "effectiveObservationTotal": 1558,
+    "modelCalibrationFailures": 0
+  },
+  "publicCutDisposition": {
+    "originallyWithheld": 306,
+    "restored": 178,
+    "officiallyUnpublished": 121,
+    "conflictingSourceRows": 5,
+    "knownInvalidated": 2,
+    "unresolved": 0
+  },
+  "correctedClassification": {
+    "id": 1395,
+    "type": "학생부교과",
+    "admission": "교과(지역기균)",
+    "competition": 1.5
+  },
+  "regionalExclusion": {
+    "scopes": [
+      "admissions",
+      "nearby",
+      "comparison",
+      "csat"
+    ],
+    "controlIds": [
+      "excludeRegional",
+      "nearbyExcludeRegional",
+      "directExcludeRegional",
+      "csatExcludeRegional"
+    ]
+  },
+  "ruleMapping": {
+    "groups": 648,
+    "rules": 415,
+    "displayedRuleGroups": 315,
+    "hiddenUnmappedGroups": 333,
+    "counts": {
+      "ambiguous-track-or-name": 302,
+      "no-same-university-field-type": 31,
+      "sealed-exact": 11,
+      "unique-normalized-name": 106,
+      "unique-track-compatible-rename": 198
+    },
+    "criticalExamples": [
+      {
+        "university": "부산대학교",
+        "admission": "교과(학생부교과)",
+        "method": "unique-track-compatible-rename",
+        "ruleId": 280195,
+        "ruleName": "교과우수",
+        "ruleText": "국어, 수학, 영어, 탐구 중 수학 포함 상위 3개 영역 등급 합 4 이내. 탐구는 통합사회와 통합과학 평균",
+        "candidates": []
+      },
+      {
+        "university": "충북대학교",
+        "admission": "교과(학생부교과)",
+        "method": "unique-normalized-name",
+        "ruleId": 280404,
+        "ruleName": "학생부교과",
+        "ruleText": "국어, 수학, 영어, 탐구 1개 영역 중 상위 3개 영역 등급 합 4 이내",
+        "candidates": []
+      }
+    ]
+  },
+  "publicProjection": {
+    "privatePathMatches": 0
+  },
+  "evidence": {
+    "overridesSha256": "e3e9722e2fd307021592dfeba08646a6bc27cbab6d22a1a2d421ba49be72e56a",
+    "uwaySha256": "0393c95118507d49028bd7454267285da926d6928900436965a876855690c945",
+    "publicCutOverridesSha256": "bc7bccf79fffd24e39abab835daf883a100d712aefcfe840e40b7b826ec2e348"
+  }
+}
