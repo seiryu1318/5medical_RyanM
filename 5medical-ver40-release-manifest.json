@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "5medical-ver40-release/v1",
+  "version": "40",
+  "status": "PASS",
+  "pass": true,
+  "releaseReady": true,
+  "generatedAt": "2026-11-17T00:52:37.769Z",
+  "editions": {
+    "pc": {
+      "name": "라이언의 의약학 문단속(5등급)(ver.40).html",
+      "bytes": 16747035,
+      "sha256": "2ebf646cb8b252794622637e6c895f9638aec9fa4686f6a4251df9dc75bae12f",
+      "priorSha256": "e6d6c99309ee0b153f4ab82bb5d0c578c111536337b47f22d13debcfaed90061",
+      "protectedDataSha256": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "e3d94d0bb766a759d3fc172e84f29c14675a51b5713f2c1bce9a51be53b345ee",
+        "COVERAGE": "efe42237698dad89834df2437973667589e3f361f698512736c5b8603ba21bb6",
+        "SOURCE_LOCK_META": "4b4fdc0016d23a00381aa03977b2ca1140b92acb3d1923fccb3db290d83530ce",
+        "OFFICIAL_CUT_OBSERVATIONS": "71b448cad261082fe958d00ed63b7bc7d85e01e3d31b85da6cf01981d80cdf09",
+        "RESULTS": "1a45c4a202db1dc5492fd438ec1f842949c047d405630ecccbf23c22a4b2c12a"
+      }
+    },
+    "mobile": {
+      "name": "라이언의 의약학 문단속(5등급) 모바일(ver.40).html",
+      "bytes": 16793707,
+      "sha256": "7216b09b631fd87645191e03fe078807a6ce3df3a4a812e58fe2e67438a3f5a8",
+      "priorSha256": "998b1cbe517a778782366d6d97d234ace323c813846b2215165f77a32214426d",
+      "protectedDataSha256": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "dfcc4a5066dbec1bed39a61520fe8249fc8fa98528045d5cbb725dd0041ed97e",
+        "COVERAGE": "01e09d1c164d0e8655784b848a64e70e7c3b099d41e8c1a8edcbfe77ebf764ce",
+        "SOURCE_LOCK_META": "09158fa4022c181fade47b52a4337d89d3d6575517391a65310d080a8e572fca",
+        "OFFICIAL_CUT_OBSERVATIONS": "71b448cad261082fe958d00ed63b7bc7d85e01e3d31b85da6cf01981d80cdf09",
+        "RESULTS": "1a45c4a202db1dc5492fd438ec1f842949c047d405630ecccbf23c22a4b2c12a"
+      }
+    }
+  },
+  "transitionAudit": {
+    "sheetRows": 254,
+    "activeRows": 215,
+    "matched": 199,
+    "unmatched": 16,
+    "matchedRate": 92.56,
+    "policy": "공식 근거가 결속된 전형만 2027 대비 변경을 표시하며, 미결속 전형은 2028 공식 기준만 표시"
+  },
+  "evidence": {
+    "dataQualityReport": {
+      "bytes": 3457,
+      "sha256": "51795f7ac517b9e8bfa99c3b14c31d2f6db3450c4a04ea653f71fb510fff9129"
+    },
+    "transitionLedger": {
+      "bytes": 129658,
+      "sha256": "820b7473bdb198602b8a2cda92abf50497467afc1d025a298c392dff89b4017b"
+    },
+    "staticAudit": {
+      "bytes": 5293,
+      "sha256": "36715711e9b8a1ecda045634a4b865e14ce72fe4dde6553362a795f3ce3dace2"
+    },
+    "focusedBrowserQa": {
+      "bytes": 61575,
+      "sha256": "8567854ee47abb8156e6d3e15f2aeeff70713917b9a99aadbdd12f0fa9147ed7"
+    },
+    "fullRegressionQa": {
+      "bytes": 25910,
+      "sha256": "defda6297f6f112136ce7cc6910c26f8b5c4eaf085b3fd448485662af893ea17"
+    }
+  },
+  "sources": [
+    "동국대 WISE 2027학년도 수시모집요강",
+    "동국대 WISE 2028학년도 대학입학전형 시행계획",
+    "시트 작업 의약학 전형정보 후보자료"
+  ],
+  "notes": [
+    "기존 5등급 환산 배열과 입시결과 데이터 해시는 변경하지 않음",
+    "전환 미결속 16건에는 임의 변경사항을 표시하지 않음"
+  ]
+}

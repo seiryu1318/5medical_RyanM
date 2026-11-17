@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "5medical-ver40-data-quality/v1",
+  "status": "PASS",
+  "pass": true,
+  "releaseReady": true,
+  "intendedGrain": "2028학년도 대학, 모집계열, 전형유형, 전형명별 수능최저 카드",
+  "transitionAudit": {
+    "sheetRows": 254,
+    "activeRows": 215,
+    "matched": 199,
+    "unmatched": 16,
+    "matchedRate": 92.56,
+    "policy": "공식 근거가 결속된 전형만 2027 대비 변경을 표시하며, 미결속 전형은 2028 공식 기준만 표시"
+  },
+  "findings": [
+    {
+      "severity": "high",
+      "status": "fixed",
+      "finding": "동국대학교 WISE캠퍼스 불교추천인재전형이 전형명 불일치로 누락됨",
+      "remediation": "2027 모집요강과 2028 시행계획을 직접 대조하여 의예과와 한의예과를 공식 교과 수능최저에 결속"
+    },
+    {
+      "severity": "medium",
+      "status": "fixed",
+      "finding": "수학 공통 체계를 선택과목 미지정으로 표현함",
+      "remediation": "반복 문구를 제거하고 수학 또는 통합과학 필수 포함, 탐구 범위와 산정 방식만 우선 표시"
+    },
+    {
+      "severity": "medium",
+      "status": "fixed",
+      "finding": "수능최저 화면이 집계 수치와 중첩 표로 구성되어 전형 단위를 파악하기 어려움",
+      "remediation": "학년도, 대학, 모집계열, 전형정보, 수능최저, 충족 여부, 2027 대비 변경을 한 카드에 통합"
+    }
+  ],
+  "reusedEvidence": {
+    "ver39DataQualityReportSha256": "5035eb411cb67afe35ae681b2b66cfb68405516dd033aefe4167db61bea180ea",
+    "protectedDataHashes": {
+      "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+      "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+      "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+      "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+      "AUDIT_META": "e3d94d0bb766a759d3fc172e84f29c14675a51b5713f2c1bce9a51be53b345ee",
+      "COVERAGE": "efe42237698dad89834df2437973667589e3f361f698512736c5b8603ba21bb6",
+      "SOURCE_LOCK_META": "4b4fdc0016d23a00381aa03977b2ca1140b92acb3d1923fccb3db290d83530ce",
+      "OFFICIAL_CUT_OBSERVATIONS": "71b448cad261082fe958d00ed63b7bc7d85e01e3d31b85da6cf01981d80cdf09",
+      "RESULTS": "1a45c4a202db1dc5492fd438ec1f842949c047d405630ecccbf23c22a4b2c12a"
+    }
+  },
+  "rerunEvidence": {
+    "staticAuditSha256": "36715711e9b8a1ecda045634a4b865e14ce72fe4dde6553362a795f3ce3dace2",
+    "focusedBrowserQaSha256": "8567854ee47abb8156e6d3e15f2aeeff70713917b9a99aadbdd12f0fa9147ed7",
+    "fullRegressionQaSha256": "defda6297f6f112136ce7cc6910c26f8b5c4eaf085b3fd448485662af893ea17",
+    "transitionLedgerSha256": "820b7473bdb198602b8a2cda92abf50497467afc1d025a298c392dff89b4017b"
+  },
+  "officialEvidence": [
+    {
+      "title": "동국대 WISE 2027학년도 수시모집요강",
+      "bytes": 2483906,
+      "sha256": "c763241e24109440130282f83b33b2f7627c25873c7ec4676598b8fee86a09b3"
+    },
+    {
+      "title": "동국대 WISE 2028학년도 대학입학전형 시행계획",
+      "bytes": 923648,
+      "sha256": "b14e29c45784881c4325b3684b388b9c8da10347be56c4319d0a267880dff7fb"
+    }
+  ],
+  "publicSafety": {
+    "privatePathCount": 0,
+    "checks": [
+      "HTML",
+      "release manifest",
+      "data-quality report",
+      "transition ledger"
+    ]
+  }
+}
