@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "5medical-ver48-release/v1",
+  "version": "48",
+  "status": "RELEASE_READY",
+  "pass": true,
+  "releaseReady": true,
+  "editions": {
+    "pc": {
+      "filename": "라이언의 의약학 문단속(5등급)(ver.48).html",
+      "sha256": "b9bb9c77337e7d9de9d2a23da9575925d9254b892a9f33f19ef77000c44d4190",
+      "bytes": 16706355,
+      "protectedData": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "e3d94d0bb766a759d3fc172e84f29c14675a51b5713f2c1bce9a51be53b345ee",
+        "COVERAGE": "efe42237698dad89834df2437973667589e3f361f698512736c5b8603ba21bb6",
+        "SOURCE_LOCK_META": "4b4fdc0016d23a00381aa03977b2ca1140b92acb3d1923fccb3db290d83530ce"
+      }
+    },
+    "mobile": {
+      "filename": "라이언의 의약학 문단속(5등급) 모바일(ver.48).html",
+      "sha256": "8e93eee34033febf26dd0484773f25742c1bccafd97cb6eb3e1f6ea786654c42",
+      "bytes": 16753027,
+      "protectedData": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "dfcc4a5066dbec1bed39a61520fe8249fc8fa98528045d5cbb725dd0041ed97e",
+        "COVERAGE": "01e09d1c164d0e8655784b848a64e70e7c3b099d41e8c1a8edcbfe77ebf764ce",
+        "SOURCE_LOCK_META": "09158fa4022c181fade47b52a4337d89d3d6575517391a65310d080a8e572fca"
+      }
+    }
+  },
+  "historicalRows": 1686,
+  "historicalAdditions": 230,
+  "unresolvedHistoricCriteria": 0,
+  "priorStageSha256": "1653d6973f9cbd99c0b7ed9054e69fa4b0cf2d9dd250b52255cd3896ee7831d7",
+  "evidence": {
+    "auditSha256": "66f5e59e6a4594c6d5e26b32d47e8aafb0c48620688e79ff03c96cf5886a519e",
+    "linkAuditSha256": "ea168af40e5ed21f999499c574a441a02c5f1ab1a2d188f275e0ce9c6435438e",
+    "browserAuditSha256": "27cba5a42989d8be11548d02a05bc964b2a7667f490171da0563e9febf5ed51c",
+    "conversionAuditSha256": "d2f8cc197aaab784d1616445cd28530581ee416f2deed65819d348e1a84d7001",
+    "verifiedLinks": 86,
+    "browserChecks": 616,
+    "viewports": 8
+  },
+  "gates": {
+    "static": true,
+    "runtime": true,
+    "visual": true,
+    "links": true,
+    "conversion": true,
+    "publicProjectionPrivacy": true
+  }
+}
