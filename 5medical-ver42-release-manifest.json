@@ -1,0 +1,63 @@
+{
+  "version": "42",
+  "status": "PASS",
+  "priorManifestSha256": "3cd4ff94f7d42b37bdb5247af3429894c866984956560eeff752c9fe6cedfdc5",
+  "officialSources": {
+    "exam": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=103512&lev=0&m=020402&s=moe",
+    "sunchon2028": "https://www.scnu.ac.kr/iphak/na/ntt/selectNttInfo.do?mi=1676&nttSn=281317853",
+    "sunchon2027": "https://www.scnu.ac.kr/iphak/na/ntt/selectNttInfo.do?mi=1676&nttSn=281317854",
+    "gachon2028": "https://admission.gachon.ac.kr/admission/html/counsel/noticeView.asp?BOARD_IDX=29980",
+    "gachon2027": "https://admission.gachon.ac.kr/upload/BBS0021/20260522154511HBZYTW.PDF",
+    "yonsei2028": "https://www2.yonsei.ac.kr/entrance/plan/2028_plan.pdf",
+    "yonsei2027": "https://admission.yonsei.ac.kr/seoul/upload/guide/20251229103015L4LFJB.PDF",
+    "cbnu2028": "https://ipsi.chungbuk.ac.kr/kor/BBSMSTR_000000000051/23621/view.do",
+    "cbnu2027": "https://ipsi.chungbuk.ac.kr/preview/1787711434054/index.html"
+  },
+  "scope": "2028 수능최저 메뉴와 학력평가 성적 입력 바로가기의 좁은 화면 대응",
+  "editions": {
+    "pc": {
+      "filename": "라이언의 의약학 문단속(5등급)(ver.42).html",
+      "bytes": 16155969,
+      "sha256": "8f612aa97325d45bb3ad5c4270f63c3f743afb2c00ad56888a9ebace6eb04577",
+      "baselineSha256": "d5277fa151081060271c084e3e60c8bc0d859e346671db18c68fc167706dcb7e",
+      "protectedDataSha256": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "e3d94d0bb766a759d3fc172e84f29c14675a51b5713f2c1bce9a51be53b345ee",
+        "COVERAGE": "efe42237698dad89834df2437973667589e3f361f698512736c5b8603ba21bb6",
+        "SOURCE_LOCK_META": "4b4fdc0016d23a00381aa03977b2ca1140b92acb3d1923fccb3db290d83530ce",
+        "OFFICIAL_CUT_OBSERVATIONS": "71b448cad261082fe958d00ed63b7bc7d85e01e3d31b85da6cf01981d80cdf09",
+        "RESULTS": "1a45c4a202db1dc5492fd438ec1f842949c047d405630ecccbf23c22a4b2c12a"
+      }
+    },
+    "mobile": {
+      "filename": "라이언의 의약학 문단속(5등급) 모바일(ver.42).html",
+      "bytes": 16202641,
+      "sha256": "aa504bd7684217d432114eaed037c86327d2ca75dd8c0be915f2bd240fe1cb9d",
+      "baselineSha256": "daf3afe0d4c10d117f40a2e6f00811e9e9a0911bcfa3bee5e2ca4c801cbe40ed",
+      "protectedDataSha256": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "dfcc4a5066dbec1bed39a61520fe8249fc8fa98528045d5cbb725dd0041ed97e",
+        "COVERAGE": "01e09d1c164d0e8655784b848a64e70e7c3b099d41e8c1a8edcbfe77ebf764ce",
+        "SOURCE_LOCK_META": "09158fa4022c181fade47b52a4337d89d3d6575517391a65310d080a8e572fca",
+        "OFFICIAL_CUT_OBSERVATIONS": "71b448cad261082fe958d00ed63b7bc7d85e01e3d31b85da6cf01981d80cdf09",
+        "RESULTS": "1a45c4a202db1dc5492fd438ec1f842949c047d405630ecccbf23c22a4b2c12a"
+      }
+    }
+  },
+  "schemaVersion": "5medical-ver42-release/v1",
+  "pass": true,
+  "releaseReady": true,
+  "auditedAt": "2026-11-17T01:55:18.594Z",
+  "reused": "ver.41 입시결과와 2028 규칙의 검증 결과 재사용. 두 판 모두 스타일과 버전 변경을 되돌리면 직전 검증본과 SHA-256 일치.",
+  "rechecked": {
+    "viewports": 8,
+    "checks": 256,
+    "browserAuditSha256": "381889db51377e0711716723c6f45a744a673336c7ec9bad64a311cc57baac73"
+  }
+}
