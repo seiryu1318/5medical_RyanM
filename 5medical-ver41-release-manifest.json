@@ -1,0 +1,275 @@
+{
+  "schemaVersion": "5medical-ver41-release/v1",
+  "version": "41",
+  "status": "PASS",
+  "officialSources": {
+    "exam": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=103512&lev=0&m=020402&s=moe",
+    "sunchon2028": "https://www.scnu.ac.kr/iphak/na/ntt/selectNttInfo.do?mi=1676&nttSn=281317853",
+    "sunchon2027": "https://www.scnu.ac.kr/iphak/na/ntt/selectNttInfo.do?mi=1676&nttSn=281317854",
+    "gachon2028": "https://admission.gachon.ac.kr/admission/html/counsel/noticeView.asp?BOARD_IDX=29980",
+    "gachon2027": "https://admission.gachon.ac.kr/upload/BBS0021/20260522154511HBZYTW.PDF",
+    "yonsei2028": "https://www2.yonsei.ac.kr/entrance/plan/2028_plan.pdf",
+    "yonsei2027": "https://admission.yonsei.ac.kr/seoul/upload/guide/20251229103015L4LFJB.PDF",
+    "cbnu2028": "https://ipsi.chungbuk.ac.kr/kor/BBSMSTR_000000000051/23621/view.do",
+    "cbnu2027": "https://ipsi.chungbuk.ac.kr/preview/1787711434054/index.html"
+  },
+  "updatedRuleIds": [
+    280001,
+    280002,
+    280003,
+    280004,
+    280005,
+    280006,
+    280007,
+    280008,
+    280009,
+    280010,
+    280129,
+    280130,
+    280131,
+    280132,
+    280248,
+    280249,
+    280250,
+    280251,
+    280252,
+    280253,
+    280254,
+    280393,
+    280394,
+    280396,
+    280397,
+    280398,
+    280399,
+    280401,
+    280402,
+    280403,
+    280404,
+    280406
+  ],
+  "addedRuleIds": [
+    280416,
+    280417,
+    280418,
+    280419,
+    280420,
+    280421,
+    280422
+  ],
+  "editions": {
+    "pc": {
+      "filename": "라이언의 의약학 문단속(5등급)(ver.41).html",
+      "sha256": "d5277fa151081060271c084e3e60c8bc0d859e346671db18c68fc167706dcb7e",
+      "bytes": 16155262,
+      "baselineSha256": "10f9a3dd9460b8824ba3919e8e6a943ec9fd9a912387baf3aee271b784610a62",
+      "protectedDataSha256": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "e3d94d0bb766a759d3fc172e84f29c14675a51b5713f2c1bce9a51be53b345ee",
+        "COVERAGE": "efe42237698dad89834df2437973667589e3f361f698512736c5b8603ba21bb6",
+        "SOURCE_LOCK_META": "4b4fdc0016d23a00381aa03977b2ca1140b92acb3d1923fccb3db290d83530ce",
+        "OFFICIAL_CUT_OBSERVATIONS": "71b448cad261082fe958d00ed63b7bc7d85e01e3d31b85da6cf01981d80cdf09",
+        "RESULTS": "1a45c4a202db1dc5492fd438ec1f842949c047d405630ecccbf23c22a4b2c12a"
+      }
+    },
+    "mobile": {
+      "filename": "라이언의 의약학 문단속(5등급) 모바일(ver.41).html",
+      "sha256": "daf3afe0d4c10d117f40a2e6f00811e9e9a0911bcfa3bee5e2ca4c801cbe40ed",
+      "bytes": 16201934,
+      "baselineSha256": "d3b1d903067ec152edfcea9c26e30f9618619da77f543c25cecc1b6f0bac7085",
+      "protectedDataSha256": {
+        "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
+        "UNIVERSITY_2028": "34b23d84b48eee6ebfc66bb2c2d6627b61405e6b893937fbd41eda33c2829d1e",
+        "RESULT_RULE_LINKS": "25123d27eb5acab5f825c3d40327e0d32fa1343a613d1867554481d9233e9d76",
+        "FIVE_TO_NINE_GRID": "71013bb99e39e52b8bbd8a8268cf5a139e085e39495b6a1fb183517b2853b154",
+        "AUDIT_META": "dfcc4a5066dbec1bed39a61520fe8249fc8fa98528045d5cbb725dd0041ed97e",
+        "COVERAGE": "01e09d1c164d0e8655784b848a64e70e7c3b099d41e8c1a8edcbfe77ebf764ce",
+        "SOURCE_LOCK_META": "09158fa4022c181fade47b52a4337d89d3d6575517391a65310d080a8e572fca",
+        "OFFICIAL_CUT_OBSERVATIONS": "71b448cad261082fe958d00ed63b7bc7d85e01e3d31b85da6cf01981d80cdf09",
+        "RESULTS": "1a45c4a202db1dc5492fd438ec1f842949c047d405630ecccbf23c22a4b2c12a"
+      }
+    }
+  },
+  "pass": true,
+  "releaseReady": true,
+  "checkedAt": "2026-11-17T01:48:55.511Z",
+  "audit": {
+    "initialRules": 415,
+    "activeRules": 422,
+    "existingResultRows": 1686,
+    "priorDataQualitySha256": "865216bd31d7551e0f9a530c2014b66544248f704ef92f3b9487b32fd6305c7f",
+    "matchedPriorSourceAssets": [
+      "RULES_2028",
+      "UNIVERSITY_2028",
+      "RESULT_RULE_LINKS",
+      "FIVE_TO_NINE_GRID",
+      "OFFICIAL_CUT_OBSERVATIONS",
+      "RESULTS"
+    ],
+    "officialRecheckScope": "2028년 수능 체계와 가천대, 국립순천대, 연세대 서울, 충북대의 이번 수정 전형을 공식 원문에서 재검토. 첨부 자료는 2021~2027학년도 조건을 읽는 데 사용. 그 밖의 기존 입시결과 자료는 기존 해시 일치 범위 재사용.",
+    "checkedRuleSourcePages": [
+      {
+        "id": 280001,
+        "sourcePage": 7
+      },
+      {
+        "id": 280002,
+        "sourcePage": 8
+      },
+      {
+        "id": 280003,
+        "sourcePage": 14
+      },
+      {
+        "id": 280004,
+        "sourcePage": 17
+      },
+      {
+        "id": 280005,
+        "sourcePage": 7
+      },
+      {
+        "id": 280006,
+        "sourcePage": 8
+      },
+      {
+        "id": 280007,
+        "sourcePage": 14
+      },
+      {
+        "id": 280008,
+        "sourcePage": 7
+      },
+      {
+        "id": 280009,
+        "sourcePage": 11
+      },
+      {
+        "id": 280010,
+        "sourcePage": 8
+      },
+      {
+        "id": 280129,
+        "sourcePage": 9
+      },
+      {
+        "id": 280130,
+        "sourcePage": 7
+      },
+      {
+        "id": 280131,
+        "sourcePage": 27
+      },
+      {
+        "id": 280132,
+        "sourcePage": 26
+      },
+      {
+        "id": 280248,
+        "sourcePage": 16
+      },
+      {
+        "id": 280249,
+        "sourcePage": 12
+      },
+      {
+        "id": 280250,
+        "sourcePage": 13
+      },
+      {
+        "id": 280251,
+        "sourcePage": 12
+      },
+      {
+        "id": 280252,
+        "sourcePage": 13
+      },
+      {
+        "id": 280253,
+        "sourcePage": 12
+      },
+      {
+        "id": 280254,
+        "sourcePage": 13
+      },
+      {
+        "id": 280393,
+        "sourcePage": 10
+      },
+      {
+        "id": 280394,
+        "sourcePage": 10
+      },
+      {
+        "id": 280396,
+        "sourcePage": 5
+      },
+      {
+        "id": 280397,
+        "sourcePage": 10
+      },
+      {
+        "id": 280398,
+        "sourcePage": 10
+      },
+      {
+        "id": 280399,
+        "sourcePage": 10
+      },
+      {
+        "id": 280401,
+        "sourcePage": 5
+      },
+      {
+        "id": 280402,
+        "sourcePage": 10
+      },
+      {
+        "id": 280403,
+        "sourcePage": 10
+      },
+      {
+        "id": 280404,
+        "sourcePage": 10
+      },
+      {
+        "id": 280406,
+        "sourcePage": 5
+      },
+      {
+        "id": 280416,
+        "sourcePage": 11
+      },
+      {
+        "id": 280417,
+        "sourcePage": 21
+      },
+      {
+        "id": 280418,
+        "sourcePage": 10
+      },
+      {
+        "id": 280419,
+        "sourcePage": 10
+      },
+      {
+        "id": 280420,
+        "sourcePage": 10
+      },
+      {
+        "id": 280421,
+        "sourcePage": 10
+      },
+      {
+        "id": 280422,
+        "sourcePage": 10
+      }
+    ],
+    "localBrowser": {
+      "checks": 224,
+      "reportSha256": "98eb3b5f79a303889a2358fb15861d28536ffe70b0ebc5f5e08418e402ae2d12"
+    }
+  }
+}
