@@ -1,15 +1,16 @@
 {
   "schemaVersion": "5medical-ver40-transition-ledger/v1",
-  "generatedAt": "2026-11-17T00:24:20.018Z",
+  "generatedAt": "2026-11-17T00:59:39.308Z",
   "sheetRows": 254,
   "activeRows": 215,
-  "matched": 199,
-  "unmatched": 16,
+  "matched": 206,
+  "unmatched": 9,
   "methodCounts": {
-    "ambiguous": 4,
+    "ambiguous": 2,
+    "official-name-alias": 7,
     "scored-name-or-track": 195,
     "single-official-rule": 4,
-    "unmatched": 12
+    "unmatched": 7
   },
   "rows": [
     {
@@ -550,11 +551,11 @@
       "thresholdCandidate": "3합 6(탐구 2)",
       "transition": "전형 유지",
       "note": "수능 수학 포함",
-      "ruleId": null,
-      "ruleName": null,
-      "method": "unmatched",
-      "score": 0,
-      "official2028Source": null
+      "ruleId": 280283,
+      "ruleName": "일반",
+      "method": "official-name-alias",
+      "score": 200000,
+      "official2028Source": "https://ipsi.wku.ac.kr/detail.do?board_seq=20885&categoryid=6&menuurl=wvOt10B5et6zMa%2FM59G%2BxQ%3D%3D&ord=1&pageNo=1"
     },
     {
       "university": "제주대학교",
@@ -1398,11 +1399,11 @@
       "thresholdCandidate": "수 포함 3합 6(탐구 2)",
       "transition": "2028 신설",
       "note": "2028학년도 치의예과 인문과 자연 모집단위를 통합. 공식 시행계획에 통합 모집인원은 미공개. 1단계 서류평가 100%로 5배수 선발, 2단계 1단계 성적 70%+면접 30%",
-      "ruleId": null,
-      "ruleName": null,
-      "method": "unmatched",
-      "score": 0,
-      "official2028Source": null
+      "ruleId": 280286,
+      "ruleName": "일반",
+      "method": "official-name-alias",
+      "score": 200000,
+      "official2028Source": "https://ipsi.wku.ac.kr/detail.do?board_seq=20885&categoryid=6&menuurl=wvOt10B5et6zMa%2FM59G%2BxQ%3D%3D&ord=1&pageNo=1"
     },
     {
       "university": "전남대학교",
@@ -1878,11 +1879,11 @@
       "thresholdCandidate": "수 포함 3합 6(탐구 2)",
       "transition": "2028 신설",
       "note": "2028학년도에 인문과 자연을 통합해 학생부종합전형 12명 선발, 통합사회와 통합과학 평균 반영",
-      "ruleId": null,
-      "ruleName": null,
-      "method": "unmatched",
-      "score": 0,
-      "official2028Source": null
+      "ruleId": 280289,
+      "ruleName": "일반",
+      "method": "official-name-alias",
+      "score": 200000,
+      "official2028Source": "https://ipsi.wku.ac.kr/detail.do?board_seq=20885&categoryid=6&menuurl=wvOt10B5et6zMa%2FM59G%2BxQ%3D%3D&ord=1&pageNo=1"
     },
     {
       "university": "우석대학교",
@@ -2294,11 +2295,11 @@
       "thresholdCandidate": "4합 5(탐구 1)",
       "transition": "2028 신설",
       "note": "서류 100%, 한국사 4등급, 탐구는 사회탐구와 과학탐구 평균",
-      "ruleId": null,
-      "ruleName": null,
-      "method": "unmatched",
-      "score": 0,
-      "official2028Source": null
+      "ruleId": 280373,
+      "ruleName": "최저 있는 학종(Up)",
+      "method": "official-name-alias",
+      "score": 200000,
+      "official2028Source": "https://www.adiga.kr/uct/ces/archiveView.do?menuId=PCUCTCES1000"
     },
     {
       "university": "이화여자대학교",
@@ -2742,11 +2743,11 @@
       "thresholdCandidate": "수 포함 3합 7(탐구 2)",
       "transition": "전형 유지",
       "note": "과탐 2과목 평균을 소수점 그대로 반영",
-      "ruleId": null,
-      "ruleName": null,
-      "method": "unmatched",
-      "score": 0,
-      "official2028Source": null
+      "ruleId": 280280,
+      "ruleName": "일반",
+      "method": "official-name-alias",
+      "score": 200000,
+      "official2028Source": "https://ipsi.wku.ac.kr/detail.do?board_seq=20885&categoryid=6&menuurl=wvOt10B5et6zMa%2FM59G%2BxQ%3D%3D&ord=1&pageNo=1"
     },
     {
       "university": "제주대학교",
@@ -3030,11 +3031,11 @@
       "thresholdCandidate": "최저 없음",
       "transition": "2028 신설",
       "note": "1단계 서류 100%, 2단계 1단계 60%와 면접 40%",
-      "ruleId": null,
-      "ruleName": null,
-      "method": "ambiguous",
-      "score": 0,
-      "official2028Source": null
+      "ruleId": 280374,
+      "ruleName": "탐구하는 학종(Core)",
+      "method": "official-name-alias",
+      "score": 200000,
+      "official2028Source": "https://www.adiga.kr/uct/ces/archiveView.do?menuId=PCUCTCES1000"
     },
     {
       "university": "중앙대학교",
@@ -3046,11 +3047,11 @@
       "thresholdCandidate": "최저 없음",
       "transition": "2028 신설",
       "note": "1단계 서류 100%, 2단계 1단계 60%와 면접 40%",
-      "ruleId": null,
-      "ruleName": null,
-      "method": "ambiguous",
-      "score": 0,
-      "official2028Source": null
+      "ruleId": 280372,
+      "ruleName": "모두의 학종(All)",
+      "method": "official-name-alias",
+      "score": 200000,
+      "official2028Source": "https://www.adiga.kr/uct/ces/archiveView.do?menuId=PCUCTCES1000"
     },
     {
       "university": "충북대학교",

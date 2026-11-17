@@ -7,9 +7,9 @@
   "transitionAudit": {
     "sheetRows": 254,
     "activeRows": 215,
-    "matched": 199,
-    "unmatched": 16,
-    "matchedRate": 92.56,
+    "matched": 206,
+    "unmatched": 9,
+    "matchedRate": 95.81,
     "policy": "공식 근거가 결속된 전형만 2027 대비 변경을 표시하며, 미결속 전형은 2028 공식 기준만 표시"
   },
   "findings": [
@@ -47,10 +47,10 @@
     }
   },
   "rerunEvidence": {
-    "staticAuditSha256": "36715711e9b8a1ecda045634a4b865e14ce72fe4dde6553362a795f3ce3dace2",
+    "staticAuditSha256": "26c590443f827cea4bc0831ad7afc7ebd09881c601fd54073f74e5fd2ba053bb",
     "focusedBrowserQaSha256": "8567854ee47abb8156e6d3e15f2aeeff70713917b9a99aadbdd12f0fa9147ed7",
     "fullRegressionQaSha256": "defda6297f6f112136ce7cc6910c26f8b5c4eaf085b3fd448485662af893ea17",
-    "transitionLedgerSha256": "820b7473bdb198602b8a2cda92abf50497467afc1d025a298c392dff89b4017b"
+    "transitionLedgerSha256": "c067882cc0896a5a5edb82cdb30b8b688c685305e227dca415f2ee1cedc7a86d"
   },
   "officialEvidence": [
     {

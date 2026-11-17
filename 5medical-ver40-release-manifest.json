@@ -4,12 +4,12 @@
   "status": "PASS",
   "pass": true,
   "releaseReady": true,
-  "generatedAt": "2026-11-17T00:52:37.769Z",
+  "generatedAt": "2026-11-17T01:01:17.993Z",
   "editions": {
     "pc": {
       "name": "라이언의 의약학 문단속(5등급)(ver.40).html",
-      "bytes": 16747035,
-      "sha256": "2ebf646cb8b252794622637e6c895f9638aec9fa4686f6a4251df9dc75bae12f",
+      "bytes": 16748468,
+      "sha256": "10f9a3dd9460b8824ba3919e8e6a943ec9fd9a912387baf3aee271b784610a62",
       "priorSha256": "e6d6c99309ee0b153f4ab82bb5d0c578c111536337b47f22d13debcfaed90061",
       "protectedDataSha256": {
         "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
@@ -25,8 +25,8 @@
     },
     "mobile": {
       "name": "라이언의 의약학 문단속(5등급) 모바일(ver.40).html",
-      "bytes": 16793707,
-      "sha256": "7216b09b631fd87645191e03fe078807a6ce3df3a4a812e58fe2e67438a3f5a8",
+      "bytes": 16795140,
+      "sha256": "d3b1d903067ec152edfcea9c26e30f9618619da77f543c25cecc1b6f0bac7085",
       "priorSha256": "998b1cbe517a778782366d6d97d234ace323c813846b2215165f77a32214426d",
       "protectedDataSha256": {
         "RULES_2028": "819553c2c0c4a838e635b368d6413c799a6e1083116aa32384e7e21c0453d0d5",
@@ -44,23 +44,23 @@
   "transitionAudit": {
     "sheetRows": 254,
     "activeRows": 215,
-    "matched": 199,
-    "unmatched": 16,
-    "matchedRate": 92.56,
+    "matched": 206,
+    "unmatched": 9,
+    "matchedRate": 95.81,
     "policy": "공식 근거가 결속된 전형만 2027 대비 변경을 표시하며, 미결속 전형은 2028 공식 기준만 표시"
   },
   "evidence": {
     "dataQualityReport": {
-      "bytes": 3457,
-      "sha256": "51795f7ac517b9e8bfa99c3b14c31d2f6db3450c4a04ea653f71fb510fff9129"
+      "bytes": 3456,
+      "sha256": "865216bd31d7551e0f9a530c2014b66544248f704ef92f3b9487b32fd6305c7f"
     },
     "transitionLedger": {
-      "bytes": 129658,
-      "sha256": "820b7473bdb198602b8a2cda92abf50497467afc1d025a298c392dff89b4017b"
+      "bytes": 130528,
+      "sha256": "c067882cc0896a5a5edb82cdb30b8b688c685305e227dca415f2ee1cedc7a86d"
     },
     "staticAudit": {
-      "bytes": 5293,
-      "sha256": "36715711e9b8a1ecda045634a4b865e14ce72fe4dde6553362a795f3ce3dace2"
+      "bytes": 5292,
+      "sha256": "26c590443f827cea4bc0831ad7afc7ebd09881c601fd54073f74e5fd2ba053bb"
     },
     "focusedBrowserQa": {
       "bytes": 61575,
